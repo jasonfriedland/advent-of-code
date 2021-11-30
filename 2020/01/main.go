@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Input file
-	file, _ := os.Open("./2020/1/input.txt")
+	file, _ := os.Open("./2020/01/input.txt")
 	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
